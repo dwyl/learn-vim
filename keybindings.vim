@@ -38,6 +38,12 @@ imap <Leader>d <esc>:bd<cr>
 map <Leader>D :BufOnly<cr>
 imap <Leader>D <esc>:BufOnly<cr>
 
+" and resizing windows
+nmap <c-H> <c-w><
+nmap <c-L> <c-w>>
+nmap <c-J> <c-w>-
+nmap <c-K> <c-w>+
+
 " ExitInsertMode: Alternative keybinding
 imap jj <Esc>
 
@@ -82,4 +88,6 @@ nmap <leader>gw :let @/="\\<<C-R><C-W>\\>"<CR>:set hls<CR>:silent Ggrep -w "<C-R
 " same in visual mode
 vmap <leader>gw y:let @/=escape(@", '\\[]$^*.')<CR>:set hls<CR>:silent Ggrep -F "<C-R>=escape(@", '\\"#')<CR>"<CR>:ccl<CR>:cw<CR><CR>
 
+" QuickLook Markdown
+nmap <leader>md :!qlmanage -c net.daringfireball.markdown -g ~/Library/QuickLook/QLMarkdown.qlgenerator -p %<CR>
 
