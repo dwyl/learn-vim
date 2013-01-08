@@ -21,11 +21,12 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'juvenn/mustache.vim'
 Bundle 'kchmck/vim-coffee-script'
-Bundle 'zaiste/VimClojure'
+Bundle 'vim-scripts/VimClojure'
 Bundle 'altercation/vim-colors-solarized'
 
 " Bundle 'vim-scripts/ZoomWin'
 Bundle 'mattn/gist-vim'
+" Leader<b> to activate blockle
 Bundle 'jgdavey/vim-blockle'
 Bundle 'duff/vim-bufonly'
 Bundle 'pangloss/vim-javascript'
@@ -33,6 +34,7 @@ Bundle 'tsaleh/vim-matchit'
 Bundle 'jpalardy/vim-slime'
 Bundle 'tsaleh/vim-supertab'
 Bundle 'skalnik/vim-vroom'
+Bundle 'vim-scripts/Railscasts-Theme-GUIand256color'
 
 Bundle 'tpope/gem-browse'
 Bundle 'tpope/vim-bundler'
@@ -48,6 +50,9 @@ Bundle 'tpope/vim-rvm.git'
 Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-unimpaired'
+
+Bundle 'neowit/vim-force.com'
+Bundle 'anzaika/go.vim'
 
 filetype plugin indent on     " required!
 "
