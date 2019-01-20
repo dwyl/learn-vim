@@ -1,6 +1,7 @@
-vim
+Learn Vim
 ===
-My personal vim configuration optimized for my Rails workflow.
+
+# Nothing to See Here ... 
 
 installation
 ====
