@@ -79,3 +79,8 @@ installation
 ====
 A barbones install script is include that assumes this repo is cloned at ~/vim.
 -->
+
+# Useful Links 
+
++ How to install NERDTree (_or any other Vim plugin_) using Vundle:
+https://vi.stackexchange.com/questions/5335/how-to-install-nerdtree-with-vundle
