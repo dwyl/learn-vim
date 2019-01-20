@@ -63,6 +63,17 @@ When you edit a `README.md` you should see something like this:
 ![Vim-showing-nerdtree](https://user-images.githubusercontent.com/194400/51445633-7bc11380-1cff-11e9-92c8-010ea17249dd.png)
 
 
+## NERDTree
+
+NERDTree is a directory/filesystem navigator.
+see: https://github.com/scrooloose/nerdtree
+
+It's already installed above in the Vundle section.
+If you want to map a keyboard shortcut, go with **`F6`** as it's available.
+
++ Keyboard shortcut: 
+https://vi.stackexchange.com/questions/9967/how-do-i-open-and-close-nerdtree-toggle-nerdtree-view-using-a-single-keystroke/9968
+
 <!-- temp comment out 
 installation
 ====
