@@ -71,8 +71,28 @@ see: https://github.com/scrooloose/nerdtree
 It's already installed above in the Vundle section.
 If you want to map a keyboard shortcut, go with **`F6`** as it's available.
 
+Add the following line to your `.vimrc` file:
+
+```
+nmap <F6> :NERDTreeToggle<CR> " Keyboard shortcut https://vi.stackexchange.com/a/9968
+```
+
+
 + Keyboard shortcut: 
 https://vi.stackexchange.com/questions/9967/how-do-i-open-and-close-nerdtree-toggle-nerdtree-view-using-a-single-keystroke/9968
+
+### Creating a New File or Directory using NERDTree
+
+First, bring up NERDTree and navigate to the directory where you want to create the new file. 
+Press `m` to bring up the NERDTree Filesystem Menu. 
+This menu allows you to create, rename, and delete files and directories. 
+Type `a` to add a child node and then simply enter the filename. 
+You’re done! 
+To create a directory follow the same steps but append a `/` to the filename.
+
+> Thanks to @soofaloofa for summarising this in
+https://sookocheff.com/post/vim/creating-a-new-file-or-directoryin-vim-using-nerdtree/ ❤️
+
 
 <!-- temp comment out 
 installation
