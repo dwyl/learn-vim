@@ -1,4 +1,4 @@
-# Learn Vim
+# Learn Vim
 
 # Why?
 
@@ -15,7 +15,7 @@ The text editor you can use _anywhere_.
 
 ## Installation
 
-### Mac
+### Mac
 
 ```
 brew install macvim
@@ -27,7 +27,7 @@ see: https://www.vim.org/git.php
 (_most Linux already have Vim, check your distro_)
 
 
-### Windows? 
+### Windows? 
 
 GOTO: https://www.vim.org/download.php
 
